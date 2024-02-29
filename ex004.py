@@ -1,0 +1,5 @@
+print('=====Challenge 04=====')
+data = input('Type anything: ')
+print(type(data))
+print('You type number: {}'.format(data.isnumeric()))
+print('You type letters: {}'.format(data.isalpha()))
