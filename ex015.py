@@ -1,0 +1,5 @@
+print('=====Desafio 15=====')
+km = int(input('Quantos km percorrido: '))
+dia = int(input('Quantos dias alugados: '))
+resultado = (dia * 60) + (km * 0.15)
+print('O vlaor ficou em R${}'.format(resultado))
